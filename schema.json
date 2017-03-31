@@ -1,0 +1,28 @@
+{
+	"fields": [
+		{
+			"name": "Publication",
+			"title": "Publication",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Volume",
+			"title": "The amount of times the FSA has appeared",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "OTS",
+			"title": "Opportunity to see",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
